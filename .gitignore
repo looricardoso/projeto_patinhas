@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignorar os arquivos de configuração do banco de dados
+**/appsettings.development.json
+**/appsettings.staging.json
+**/appsettings.production.json
